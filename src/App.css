@@ -1,0 +1,33 @@
+/* *{
+  background-color;
+} */
+.main{
+    display: flex;
+    flex-wrap:wrap;
+    gap:2rem;
+    margin:4px;
+    background-color: bisque;
+  }
+.hover:hover{
+   background-color:rgb(136, 220, 62);
+   color:black;
+}
+.click:hover{
+  background-color:rgb(38, 79, 154);
+}
+.addcount{
+    display:flex;
+    flex-direction: column;
+    width:1000px;
+}
+.text{
+  font-size:xx-large;
+  color:black;
+}
+.side-bar{
+  height: inherit;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  align-items:center;
+}
